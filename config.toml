@@ -1,0 +1,31 @@
+baseURL = "http://vbcpp.net/"
+languageCode = "ja-jp"
+title = "vbcpp.net"
+theme = "vbcpp"
+publishDir = "public"
+hasCJKLanguage = true
+googleAnalytics = "UA-48047199-9"
+disableKinds = ["404"]
+copyright = "&copy; Copyrights 2014-2020 Yuki Igarashi All Rights Reserved."
+
+[params]
+    avatar = "logo.png"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.navigation]]
+    name = "Top"
+    url = "http://vbcpp.net/"
+    weight = 1
+  [[menu.navigation]]
+    name = "Blog"
+    url = "http://blog.bonprosoft.com/"
+    weight = 2
+  [[menu.navigation]]
+    name = "About me"
+    url = "http://vbcpp.net/about"
+    weight = 3

@@ -1,0 +1,3 @@
+[submodule "themes/vbcpp"]
+	path = themes/vbcpp
+	url = git@github.com:bonprosoft/hugo-theme-vbcpp.git
