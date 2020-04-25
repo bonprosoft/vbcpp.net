@@ -4,7 +4,7 @@ title = "vbcpp.net"
 theme = "vbcpp"
 publishDir = "public"
 hasCJKLanguage = true
-googleAnalytics = "UA-48047199-9"
+googleAnalytics = "UA-48047199-3"
 disableKinds = ["404"]
 copyright = "&copy; Copyrights 2014-2020 Yuki Igarashi All Rights Reserved."
 
