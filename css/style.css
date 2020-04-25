@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/*
+    Author: Yuki Igarashi
+    Author URI: http://bonprosoft.com/
+*/
+
+html {
+    background: #ececec;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #CACACA;
+    color: #333;
+    font-size: 14px;
+    font-family: Meiryo, 'メイリオ', ArialMT, Hiragino Kaku Gothic Pro, 'ヒラギノ角ゴ Pro W3', Osaka, Verdana, 'ＭＳ Ｐゴシック';
+    line-height: 160%;
+    min-width: 300px;
+}
+
+/****************************************
+ *           Heading
+ ****************************************/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    margin-bottom: 0.1em;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: solid #CCC 1px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-style: none none solid solid;
+    border-width: 0 0 0.1em 0.5em;
+    border-color: purple;
+    padding: 0.2em 0em 0.2em 0.4em;
+    margin: .5em 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    border-style: none none solid solid;
+    border-width: 0 0 0.1em 0.5em;
+    border-color: red;
+    padding: 0.2em 0em 0.2em 0.4em;
+    margin: .5em 0;
+}
+
+h4 {
+    font-size: 1.15em;
+    border-bottom: solid 0.1em;
+    border-color: green;
+    padding: 0.2em 0em 0.2em 0.4em;
+    margin: .5em 0;
+}
+
+h5 {
+    font-size: 1.1em;
+    border-style: solid;
+    border-width: 0 0 0 0.6em;
+    border-color: gray;
+    padding: 0.2em 0em 0.2em 0.4em;
+    margin: .5em 0;
+}
+
+h6 {
+    font-size: 1.1em;
+}
+
+/****************************************
+ *             Header
+ ****************************************/
+
+header nav {
+    overflow: hidden;
+    background: #00536D;
+    border-bottom: 4px solid #727272;
+    margin: 0;
+}
+
+header nav * {
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+header a:link, header a:visited, header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header .navbar .navbar-toggler {
+    border-color: rgba(0, 0, 0, .1);
+    background: #727272;
+}
+
+header .navbar img {
+    height: 50px;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+    header .navbar .container {
+        display: block;
+    }
+    header .navbar img {
+        height: 100px;
+        width: auto;
+    }
+    header .navbar li {
+        font-size: 15px;
+        margin: 0 20px;
+    }
+}
+
+/****************************************
+ *            Footer
+ ****************************************/
+
+footer {
+    clear: both;
+    overflow: hidden;
+    background: #ECECEC;
+    border-top: 4px solid #3E687F;
+}
+
+/****************************************
+ *            Single page
+ ****************************************/
+
+.pre-title {
+    color: rgb(224, 0, 0);
+    margin: 0.3em 0;
+}
+
+main {
+    margin: 10px auto;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    padding: 1.3em;
+    overflow: hidden;
+}
+
+main img {
+    max-width: 100%;
+}
+
+/****************************************
+ *            List page
+ ****************************************/
+
+.entry-list h1 {
+    border-bottom: solid #CCC 1px;
+}
+
+.entry-list h1 a:link, .entry-list h1 a:visited, .entry-list h1 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/****************************************
+ *         Social Buttons
+ ****************************************/
+
+.fb_iframe_widget>span {
+    vertical-align: baseline !important;
+}
+
+.social-buttons {
+    margin-bottom: 1em;
+}
+
+/****************************************
+ *          Components
+ ****************************************/
+
+figure {
+    padding: .5em;
+}
+
+figure img {
+    border-radius: .25rem;
+}
+
+figure figcaption h4 {
+    font-size: 1.0em;
+    color: dimgray;
+    border: none;
+    margin: 0;
+}
+
+pre {
+    background-color: #e7e8e9;
+    border-radius: .25em;
+    padding: .5em;
+}
+
+.highlight {
+    margin-bottom: .5em;
+}
+
+.post-navigation {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    margin: 1em 0;
+}
+
+section.profile {
+    margin-bottom: 1em;
+}
+
+.profile-heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: solid #CCC 1px;
+    flex-wrap: wrap;
+}
+
+.profile-heading h1 {
+    border: none;
+}
+
+.profile-heading p {
+    margin: 0;
+}
+
+.profile-heading img {
+    height: 100px;
+}
