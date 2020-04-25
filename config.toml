@@ -19,13 +19,13 @@ copyright = "&copy; Copyrights 2014-2020 Yuki Igarashi All Rights Reserved."
 [menu]
   [[menu.navigation]]
     name = "Top"
-    url = "http://vbcpp.net/"
+    url = "https://vbcpp.net/"
     weight = 1
   [[menu.navigation]]
     name = "Blog"
-    url = "http://blog.bonprosoft.com/"
+    url = "https://blog.bonprosoft.com/"
     weight = 2
   [[menu.navigation]]
     name = "About me"
-    url = "http://vbcpp.net/about"
+    url = "https://vbcpp.net/about/"
     weight = 3
