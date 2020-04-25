@@ -1,4 +1,4 @@
-baseURL = "http://vbcpp.net/"
+baseURL = "https://vbcpp.net/"
 languageCode = "ja-jp"
 title = "vbcpp.net"
 theme = "vbcpp"
