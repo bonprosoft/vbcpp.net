@@ -1,4 +1,4 @@
-name: pulish pages
+name: publish pages
 
 on:
   push:
