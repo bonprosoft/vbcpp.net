@@ -7,12 +7,13 @@ nonavigation: true
 ---
 
 {{<profile name="五十嵐 祐貴" avatar="profile.jpg" title="hoge">}}
-株式会社Preferred Networks エンジニア
+Senior Software Engineer at Woven Planet Holdings, Inc.
 {{</profile>}}
 
 ## 略歴
 
-- **2018/03 - 現在**: 株式会社Preferred Networks エンジニア
+- **2022/03 - 現在**: Woven Planet Holdings株式会社, Senior Software Engineer
+- **2018/03 - 2022/02**: 株式会社Preferred Networks, Software Engineer ([blog](https://blog.bonprosoft.com/leave-pfn/))
 - **2017/04 - 2019/03**: 東北大学大学院 情報科学研究科 システム情報科学専攻
 - **2013/04 - 2017/03**: 東北大学工学部 情報知能システム総合学科
 

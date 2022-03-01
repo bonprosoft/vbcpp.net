@@ -6,7 +6,7 @@ publishDir = "public"
 hasCJKLanguage = true
 googleAnalytics = "UA-48047199-3"
 disableKinds = ["404"]
-copyright = "&copy; Copyrights 2014-2021 Yuki Igarashi All Rights Reserved."
+copyright = "&copy; Copyrights 2014-2022 Yuki Igarashi All Rights Reserved."
 
 [params]
     avatar = "logo.png"
